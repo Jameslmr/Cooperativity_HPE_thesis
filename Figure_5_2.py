@@ -97,7 +97,7 @@ def fd(pH,Gh2,pka2,Gh3,pka3,M,Md,r):
     return Pd(pH,Gh3,pka3,M,Md,r)/Pt(pH,Gh2,pka2,Gh3,pka3,M,Md,r)
 
 
-#actual data
+#actual data from https://doi.org/10.1021/ja00115a039
 
 #100
 a=np.array([[6.3006, 0.0133],
