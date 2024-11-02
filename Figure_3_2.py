@@ -96,7 +96,7 @@ eff_pka_array=np.array([[5,	6.663],
 [100,	6.255]]
 )
     
-#actual data
+#actual data from https://doi.org/10.1038/ncomms13214
 
 
 
@@ -445,7 +445,7 @@ ax1.plot(M_range,fit_function(M_range,*params_1),label="Eq. 8")
 ax1.set_xlabel('$i$')
 ax1.set_ylabel(r'$pH(\theta=0.5)$')
 #ax.legend()
-im = plt.imread('PEG-pdpa.png') # insert local path of the image.
+im = plt.imread('Figure_3_2_structure.png') # insert local path of the image.
 
 newax = fig.add_axes([0.1,0.4,0.3,0.34], anchor='SW', zorder=1)
 newax.imshow(im)
