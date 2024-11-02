@@ -91,7 +91,7 @@ def theta(pH,Gh2,pka2,M,r,e):
 
 
     
-#actual data from https://doi.org/10.1038/ncomms13214
+#actual data from https://doi.org/10.1021/ja5053158
 
 
 
