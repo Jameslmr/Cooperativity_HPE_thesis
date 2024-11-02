@@ -376,7 +376,7 @@ ax2.set_ylabel('$pH(f_{aq}=0.5)$')
 
 #attempting to add an image to the figure
 
-im = plt.imread('PEAA-PMAA_2.png') # insert local path of the image.
+im = plt.imread('Figure_5_2_structure.png') # insert local path of the image.
 
 newax = fig.add_axes([0.68,0.61,0.27,0.27], anchor='SE', zorder=1)
 newax.imshow(im)
