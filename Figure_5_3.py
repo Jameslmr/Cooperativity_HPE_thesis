@@ -110,7 +110,7 @@ r_array=np.array([2.4,3,4,5])
 M_array=np.array([19,31,23,20])
 #M_array=np.array([20,30,30,30])
 
-#Actual data
+#Actual data from https://doi.org/10.1016/j.bpj.2016.09.025
     
 #SMA 1.4:1
 a=np.array([[4.0193, 0.1577],
@@ -363,7 +363,7 @@ ax2.set_ylabel('pH($f_H$=0.5)')
 
 #attempting to add an image to the figure
 
-im = plt.imread('SMA.png') # insert local path of the image.
+im = plt.imread('Figure_5_3_structure.png') # insert local path of the image.
 
 newax = fig.add_axes([0.62,0.665,0.3,0.3], anchor='SE', zorder=1)
 newax.imshow(im)
