@@ -82,7 +82,7 @@ def fa(pH,Gh2,pka2,M,r):
 
 
     
-#actual data
+#actual data from https://doi.org/10.1021/ma0709957
 
 a_raw=np.array([[2.0141, 31.8542],
 [2.2133, 32.3007],
@@ -228,7 +228,7 @@ plt.title('Ionization state')
 plt.xlabel('pH')
 plt.ylabel('Ionization fraction, \u03F4')
 """
-
+#data taken from https://doi.org/10.1002/pol.1964.100020429
 t=np.array([[0.0105, 4.0561 ],
 [0.0105, 4.0634 ],
 [0.0121, 4.0706 ],
