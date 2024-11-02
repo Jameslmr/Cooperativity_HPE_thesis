@@ -1114,7 +1114,7 @@ fig9.legend(loc="upper right", bbox_to_anchor=(1.0,0.4), bbox_transform=ax8.tran
 
 #attempting to add an image to the figure
 
-im = plt.imread(r'C:\Users\marti119\OneDrive - Universiteit Utrecht\Thesis\Chapter_3\Coil_globule_figure\Ruiz\PMAA.png') # insert local path of the image.
+im = plt.imread('Figure_3_3_a_structure.png') # insert local path of the image.
 
 newax = fig9.add_axes([0.33,0.5,0.55,0.3], anchor='SW', zorder=1)
 newax.imshow(im)
