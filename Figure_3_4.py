@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+_# -*- coding: utf-8 -*-
 """
 Created on Thu Nov 18 17:15:06 2021
 
@@ -88,7 +88,7 @@ def fa(pH,Gh2,pka2,M,r,e):
 
 
     
-#actual data
+#actual data from https://doi.org/10.1016/j.bpj.2016.09.025
 
 #4:1
 
@@ -345,7 +345,7 @@ ax1.xaxis.set_major_locator(ticker.MultipleLocator(1))
 #plt.legend(frameon=False)
 #now we can make a predicition instead of a fit
 newax = fig.add_axes([0.66,0.61,0.20,0.34], anchor='SW', zorder=1)
-im = plt.imread('SMA.png') # insert local path of the image.
+im = plt.imread('Figure_3_4_structure.png') # insert local path of the image.
 newax.imshow(im)
 newax.axis('off')
 plt.show()
