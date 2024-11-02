@@ -357,7 +357,7 @@ ax2.set_ylim((-0.05,1.05))
 fig.legend(loc="upper right", bbox_to_anchor=(1.01,0.4), bbox_transform=ax.transAxes,frameon=False, title='PEAA')
 #plt.savefig('PEAA.pdf')
 
-im = plt.imread(r'PEAA.png') # insert local path of the image.
+im = plt.imread(r'Figure_3_3_b_structure.png') # insert local path of the image.
 
 newax = fig.add_axes([0.18,0.60,0.3,0.3], anchor='SW', zorder=1)
 newax.imshow(im)
