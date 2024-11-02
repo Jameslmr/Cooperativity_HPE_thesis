@@ -85,6 +85,8 @@ def fa(pH,Gh2,pka2,M,r):
 #need to scale the data with the axis coordinates
 #format of axis coordinate matrices is like a clockwise square from the origin.
 
+#data from https://doi.org/10.1021/ma00196a038
+
 a=np.array([[0.0335, 4.791   ],
 [0.055, 5.1122   ],
 [0.0724, 5.279   ],
@@ -279,7 +281,7 @@ ax2.legend()
 plt.plot(pHrange, theta2(pHrange,params_c[0],4.5,params_c[1],2),label='Rh',color='green')
 ax2.legend()
 
-
+#data from https://doi.org/10.1021/ja00115a039
 
 ta=np.array([[0.0335, 4.791   ],
 [0.055, 5.1122   ],
