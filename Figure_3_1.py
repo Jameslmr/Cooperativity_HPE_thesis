@@ -91,7 +91,7 @@ def theta(pH,Gh2,pka2,M,r,e):
 
 
     
-#actual data
+#actual data from https://doi.org/10.1038/ncomms13214
 
 
 
@@ -469,7 +469,7 @@ ax3.set_ylabel('$pH(f_{aq}=0.5)$')
 ax3.yaxis.set_major_formatter(FormatStrFormatter('%.1f'))
 #ax.annotate("$R^2=$"+str(np.round(r_squared,2)),(0.19,5.7))
 #ax.legend(loc='lower left')
-im = plt.imread('PEG-pdpa-pdba.png') # insert local path of the image.
+im = plt.imread('Figure_3_1_structure.png') # insert local path of the image.
 
 newax = fig.add_axes([0.11,0.6,0.39,0.8], anchor='SE', zorder=1)
 newax.imshow(im)
